@@ -9,7 +9,7 @@
 - 目前研究結論與狀態報告
 - 重要 frame / lifecycle / control-side 解讀 memo
 - 專案使用的分析 scripts
-- CAN log spec、收集流程與分析輸出
+- CAN log spec、C3X raw CAN logger、收集流程與分析輸出
 - simulation / replay-backed 分析產物
 
 ## 這是什麼
