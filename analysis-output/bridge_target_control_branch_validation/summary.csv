@@ -1,0 +1,11 @@
+sample_id,regime,variant,mode,slew,frames_260,observed_min,observed_max,point_mae,point_p95_abs_error,delta_mae,delta_p95_abs_error,parse_errors
+early_185520_seed_touch,seed_touch_only,bounded_175,bounded,175.0,676,-26879.0,9723.0,7259.179,23962.25,122.889,516.2,0
+early_185520_seed_touch,seed_touch_only,identity_175,identity,175.0,676,-26879.0,9723.0,3182.981,15312.25,120.027,352.5,0
+bridge_173834_primary_ramp,ramping_bridge,bounded_175,bounded,175.0,622,-1486.0,5964.0,84.805,441.0,96.638,353.0,0
+bridge_173834_primary_ramp,ramping_bridge,identity_175,identity,175.0,622,-1486.0,5964.0,73.992,365.9,93.671,353.0,0
+compact_184921_ramp,compact_partial,bounded_175,bounded,175.0,632,-603.0,358.0,14.313,88.0,27.369,94.0,0
+compact_184921_ramp,compact_partial,identity_175,identity,175.0,632,-603.0,358.0,14.313,88.0,27.369,94.0,0
+partial_171414_ramp,partial_ramp,bounded_175,bounded,175.0,1254,-11819.0,1226.0,647.593,7191.3,46.311,259.0,0
+partial_171414_ramp,partial_ramp,identity_175,identity,175.0,1254,-11819.0,1226.0,32.435,161.35,42.824,149.8,0
+anchor_190101_window,anchor_window,bounded_175,bounded,175.0,630,-7707.0,344.0,630.081,4870.85,38.782,258.6,0
+anchor_190101_window,anchor_window,identity_175,identity,175.0,630,-7707.0,344.0,17.806,89.0,31.094,93.0,0

@@ -1,0 +1,25 @@
+{
+  "samples": [
+    {
+      "sample_id": "anchor_190101",
+      "regime": "anchor",
+      "sample_path": "<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260312_190101_000.ndjson"
+    },
+    {
+      "sample_id": "partial_171414",
+      "regime": "partial_ramp",
+      "sample_path": "<LOCAL_RAW_CAN_LOG>/20260316/raw_can_logs/toyota_seg_IGN_ON_20260315_171414_000.ndjson"
+    },
+    {
+      "sample_id": "compact_184921",
+      "regime": "compact_partial",
+      "sample_path": "<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260311_184921_000.ndjson"
+    }
+  ],
+  "slew_limits": [
+    25.0,
+    50.0,
+    75.0
+  ],
+  "output_dir": "<LOCAL_ANALYSIS_WORKSPACE>/analysis-output/replay_simulation_round1"
+}

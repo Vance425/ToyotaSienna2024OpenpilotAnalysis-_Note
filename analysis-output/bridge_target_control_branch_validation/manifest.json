@@ -1,0 +1,42 @@
+{
+  "samples": [
+    {
+      "sample_id": "early_185520_seed_touch",
+      "regime": "seed_touch_only",
+      "path": "<LOCAL_RAW_CAN_LOG>\\toyota_seg_IGN_ON_20260312_185520_000.ndjson"
+    },
+    {
+      "sample_id": "bridge_173834_primary_ramp",
+      "regime": "ramping_bridge",
+      "path": "<LOCAL_RAW_CAN_LOG>\\20260314\\raw_can_logs\\toyota_seg_IGN_ON_20260314_173834_000.ndjson"
+    },
+    {
+      "sample_id": "compact_184921_ramp",
+      "regime": "compact_partial",
+      "path": "<LOCAL_RAW_CAN_LOG>\\toyota_seg_IGN_ON_20260311_184921_000.ndjson"
+    },
+    {
+      "sample_id": "partial_171414_ramp",
+      "regime": "partial_ramp",
+      "path": "<LOCAL_RAW_CAN_LOG>\\20260316\\raw_can_logs\\toyota_seg_IGN_ON_20260315_171414_000.ndjson"
+    },
+    {
+      "sample_id": "anchor_190101_window",
+      "regime": "anchor_window",
+      "path": "<LOCAL_RAW_CAN_LOG>\\toyota_seg_IGN_ON_20260312_190101_000.ndjson"
+    }
+  ],
+  "variants": [
+    {
+      "name": "bounded_175",
+      "mode": "bounded",
+      "slew": 175.0
+    },
+    {
+      "name": "identity_175",
+      "mode": "identity",
+      "slew": 175.0
+    }
+  ],
+  "output_dir": "<LOCAL_ANALYSIS_WORKSPACE>/analysis-output/bridge_target_control_branch_validation"
+}

@@ -1,0 +1,1838 @@
+[
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20251125_181721_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 28142
+    },
+    "frame116_count": 8866,
+    "grade": "B",
+    "reason": "touches fff4|fff4 + 0000 but lacks full lifecycle",
+    "has_seed": true,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": 1778266463078,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20251125_181724_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 33033
+    },
+    "frame116_count": 10290,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778266996071,
+        "phase_hex": "424a",
+        "phase_sum": 140,
+        "family131": "fd88",
+        "family260": "fd8a"
+      },
+      {
+        "ts_ms": 1778266996093,
+        "phase_hex": "464d",
+        "phase_sum": 147,
+        "family131": "fd88",
+        "family260": "fd8d"
+      },
+      {
+        "ts_ms": 1778266996121,
+        "phase_hex": "474d",
+        "phase_sum": 148,
+        "family131": "fd8d",
+        "family260": "fd8d"
+      },
+      {
+        "ts_ms": 1778266996141,
+        "phase_hex": "484d",
+        "phase_sum": 149,
+        "family131": "fd8d",
+        "family260": "fd8f"
+      },
+      {
+        "ts_ms": 1778266996212,
+        "phase_hex": "4a50",
+        "phase_sum": 154,
+        "family131": "fd8b",
+        "family260": "fd88"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_184957_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 3834
+    },
+    "frame116_count": 1189,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_190347_001.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 33199
+    },
+    "frame116_count": 10307,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": true,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": 1778267259813,
+    "top_tier_peak_count": 27,
+    "top_tier_peak_examples": [
+      {
+        "ts_ms": 1778267259813,
+        "phase_hex": "4d4e",
+        "phase_sum": 155,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778267259837,
+        "phase_hex": "4d4e",
+        "phase_sum": 155,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778267259861,
+        "phase_hex": "4d4e",
+        "phase_sum": 155,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778267259885,
+        "phase_hex": "4d4e",
+        "phase_sum": 155,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778267259909,
+        "phase_hex": "4d4e",
+        "phase_sum": 155,
+        "family131": "fff4",
+        "family260": "fff4"
+      }
+    ],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778267087026,
+        "phase_hex": "4045",
+        "phase_sum": 133,
+        "family131": "fc14",
+        "family260": "fc14"
+      },
+      {
+        "ts_ms": 1778267087053,
+        "phase_hex": "4246",
+        "phase_sum": 136,
+        "family131": "fc12",
+        "family260": "fc11"
+      },
+      {
+        "ts_ms": 1778267087075,
+        "phase_hex": "4246",
+        "phase_sum": 136,
+        "family131": "fc11",
+        "family260": "fc0e"
+      },
+      {
+        "ts_ms": 1778267087122,
+        "phase_hex": "4246",
+        "phase_sum": 136,
+        "family131": "fc0a",
+        "family260": "fc08"
+      },
+      {
+        "ts_ms": 1778267087145,
+        "phase_hex": "4346",
+        "phase_sum": 137,
+        "family131": "fc0a",
+        "family260": "fc08"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_190841_002.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 33067
+    },
+    "frame116_count": 10264,
+    "grade": "B",
+    "reason": "touches fff4|fff4 + 0000 but lacks full lifecycle",
+    "has_seed": true,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": 1778267495325,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778267337613,
+        "phase_hex": "3953",
+        "phase_sum": 140,
+        "family131": "00b2",
+        "family260": "00ad"
+      },
+      {
+        "ts_ms": 1778267337636,
+        "phase_hex": "3e57",
+        "phase_sum": 149,
+        "family131": "00b2",
+        "family260": "00a8"
+      },
+      {
+        "ts_ms": 1778267337660,
+        "phase_hex": "4057",
+        "phase_sum": 151,
+        "family131": "00ad",
+        "family260": "00a3"
+      },
+      {
+        "ts_ms": 1778267337683,
+        "phase_hex": "4257",
+        "phase_sum": 153,
+        "family131": "00a3",
+        "family260": "009e"
+      },
+      {
+        "ts_ms": 1778267337706,
+        "phase_hex": "4357",
+        "phase_sum": 154,
+        "family131": "009e",
+        "family260": "0099"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_191333_003.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 32308
+    },
+    "frame116_count": 10271,
+    "grade": "B",
+    "reason": "touches fff4|fff4 + 0000 but lacks full lifecycle",
+    "has_seed": true,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": 1778267691349,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778267669256,
+        "phase_hex": "3f43",
+        "phase_sum": 130,
+        "family131": "fba6",
+        "family260": "fba6"
+      },
+      {
+        "ts_ms": 1778267669280,
+        "phase_hex": "3f43",
+        "phase_sum": 130,
+        "family131": "fba6",
+        "family260": "fba4"
+      },
+      {
+        "ts_ms": 1778267669302,
+        "phase_hex": "3f43",
+        "phase_sum": 130,
+        "family131": "fba4",
+        "family260": "fb9d"
+      },
+      {
+        "ts_ms": 1778267669327,
+        "phase_hex": "3f43",
+        "phase_sum": 130,
+        "family131": "fb9d",
+        "family260": "fb9d"
+      },
+      {
+        "ts_ms": 1778267669349,
+        "phase_hex": "4043",
+        "phase_sum": 131,
+        "family131": "fb9d",
+        "family260": "fb9e"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_191826_004.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 32915
+    },
+    "frame116_count": 10257,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778268002446,
+        "phase_hex": "3e51",
+        "phase_sum": 143,
+        "family131": "ffcb",
+        "family260": "ffcf"
+      },
+      {
+        "ts_ms": 1778268002470,
+        "phase_hex": "4456",
+        "phase_sum": 154,
+        "family131": "ffcc",
+        "family260": "ffcf"
+      },
+      {
+        "ts_ms": 1778268002497,
+        "phase_hex": "4859",
+        "phase_sum": 161,
+        "family131": "ffcc",
+        "family260": "ffcf"
+      },
+      {
+        "ts_ms": 1778268002517,
+        "phase_hex": "4b5a",
+        "phase_sum": 165,
+        "family131": "ffcc",
+        "family260": "ffcf"
+      },
+      {
+        "ts_ms": 1778268002539,
+        "phase_hex": "4d5b",
+        "phase_sum": 168,
+        "family131": "ffce",
+        "family260": "ffcf"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_192313_005.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 32020
+    },
+    "frame116_count": 10218,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": true,
+    "has_exit": true,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": 1778268428611,
+    "top_tier_peak_count": 6,
+    "top_tier_peak_examples": [
+      {
+        "ts_ms": 1778268428611,
+        "phase_hex": "506c",
+        "phase_sum": 188,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778268428633,
+        "phase_hex": "526c",
+        "phase_sum": 190,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778268428656,
+        "phase_hex": "556c",
+        "phase_sum": 193,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778268428679,
+        "phase_hex": "586c",
+        "phase_sum": 196,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778268428704,
+        "phase_hex": "5b6c",
+        "phase_sum": 199,
+        "family131": "fff4",
+        "family260": "fff4"
+      }
+    ],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778268201375,
+        "phase_hex": "3f43",
+        "phase_sum": 130,
+        "family131": "ffea",
+        "family260": "fff0"
+      },
+      {
+        "ts_ms": 1778268201397,
+        "phase_hex": "4045",
+        "phase_sum": 133,
+        "family131": "fff0",
+        "family260": "fff5"
+      },
+      {
+        "ts_ms": 1778268201444,
+        "phase_hex": "444a",
+        "phase_sum": 142,
+        "family131": "fff9",
+        "family260": "fffd"
+      },
+      {
+        "ts_ms": 1778268201494,
+        "phase_hex": "464c",
+        "phase_sum": 146,
+        "family131": "0006",
+        "family260": "000a"
+      },
+      {
+        "ts_ms": 1778268201516,
+        "phase_hex": "474d",
+        "phase_sum": 148,
+        "family131": "000a",
+        "family260": "000d"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_192759_006.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 33052
+    },
+    "frame116_count": 10348,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778268524375,
+        "phase_hex": "3e45",
+        "phase_sum": 131,
+        "family131": "000a",
+        "family260": "0009"
+      },
+      {
+        "ts_ms": 1778268524423,
+        "phase_hex": "3f44",
+        "phase_sum": 131,
+        "family131": "000b",
+        "family260": "0007"
+      },
+      {
+        "ts_ms": 1778268524444,
+        "phase_hex": "3f44",
+        "phase_sum": 131,
+        "family131": "000a",
+        "family260": "0007"
+      },
+      {
+        "ts_ms": 1778268524471,
+        "phase_hex": "3f44",
+        "phase_sum": 131,
+        "family131": "000a",
+        "family260": "0007"
+      },
+      {
+        "ts_ms": 1778268524492,
+        "phase_hex": "4044",
+        "phase_sum": 132,
+        "family131": "000b",
+        "family260": "0008"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_193254_007.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 32835
+    },
+    "frame116_count": 10377,
+    "grade": "B",
+    "reason": "touches fff4|fff4 + 0000 but lacks full lifecycle",
+    "has_seed": true,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": 1778268886398,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778268905782,
+        "phase_hex": "4665",
+        "phase_sum": 171,
+        "family131": "0067",
+        "family260": "0067"
+      },
+      {
+        "ts_ms": 1778268905806,
+        "phase_hex": "4b69",
+        "phase_sum": 180,
+        "family131": "0067",
+        "family260": "0067"
+      },
+      {
+        "ts_ms": 1778268905830,
+        "phase_hex": "4c65",
+        "phase_sum": 177,
+        "family131": "006a",
+        "family260": "006e"
+      },
+      {
+        "ts_ms": 1778268905852,
+        "phase_hex": "4c5a",
+        "phase_sum": 166,
+        "family131": "006e",
+        "family260": "0074"
+      },
+      {
+        "ts_ms": 1778268905875,
+        "phase_hex": "4c51",
+        "phase_sum": 157,
+        "family131": "0074",
+        "family260": "007e"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_193747_008.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 32277
+    },
+    "frame116_count": 10209,
+    "grade": "A",
+    "reason": "seed + ramp + plateau + exit under fff4/fff0 pattern",
+    "has_seed": true,
+    "has_ramp": true,
+    "has_plateau": true,
+    "has_exit": true,
+    "has_corridor": true,
+    "seed_ts": 1778269149432,
+    "plateau_ts": 1778269103252,
+    "top_tier_peak_count": 2,
+    "top_tier_peak_examples": [
+      {
+        "ts_ms": 1778269103252,
+        "phase_hex": "4a4a",
+        "phase_sum": 148,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778269103270,
+        "phase_hex": "4a4a",
+        "phase_sum": 148,
+        "family131": "fff4",
+        "family260": "fff4"
+      }
+    ],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778269101974,
+        "phase_hex": "2e5a",
+        "phase_sum": 136,
+        "family131": "0025",
+        "family260": "0025"
+      },
+      {
+        "ts_ms": 1778269102000,
+        "phase_hex": "5767",
+        "phase_sum": 190,
+        "family131": "0025",
+        "family260": "0025"
+      },
+      {
+        "ts_ms": 1778269102046,
+        "phase_hex": "6b72",
+        "phase_sum": 221,
+        "family131": "0025",
+        "family260": "0025"
+      },
+      {
+        "ts_ms": 1778269102067,
+        "phase_hex": "6f71",
+        "phase_sum": 224,
+        "family131": "0025",
+        "family260": "0025"
+      },
+      {
+        "ts_ms": 1778269102091,
+        "phase_hex": "6e6c",
+        "phase_sum": 218,
+        "family131": "0025",
+        "family260": "0025"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_194235_009.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 2451
+    },
+    "frame116_count": 777,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_OFF_20260508_185242_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 97
+    },
+    "frame116_count": 29,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_OFF_20260508_185822_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {},
+    "frame116_count": 0,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20251125_181722_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 983
+    },
+    "frame116_count": 338,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_184958_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 3728
+    },
+    "frame116_count": 1152,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_185243_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 15642
+    },
+    "frame116_count": 4889,
+    "grade": "B",
+    "reason": "touches fff4|fff4 + 0000 but lacks full lifecycle",
+    "has_seed": true,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": 1778266463078,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_185518_001.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 11355
+    },
+    "frame116_count": 3586,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_185835_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16944
+    },
+    "frame116_count": 5248,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_190124_001.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16632
+    },
+    "frame116_count": 5201,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778266996071,
+        "phase_hex": "424a",
+        "phase_sum": 140,
+        "family131": "fd88",
+        "family260": "fd8a"
+      },
+      {
+        "ts_ms": 1778266996093,
+        "phase_hex": "464d",
+        "phase_sum": 147,
+        "family131": "fd88",
+        "family260": "fd8d"
+      },
+      {
+        "ts_ms": 1778266996121,
+        "phase_hex": "474d",
+        "phase_sum": 148,
+        "family131": "fd8d",
+        "family260": "fd8d"
+      },
+      {
+        "ts_ms": 1778266996141,
+        "phase_hex": "484d",
+        "phase_sum": 149,
+        "family131": "fd8d",
+        "family260": "fd8f"
+      },
+      {
+        "ts_ms": 1778266996212,
+        "phase_hex": "4a50",
+        "phase_sum": 154,
+        "family131": "fd8b",
+        "family260": "fd88"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_190352_002.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16756
+    },
+    "frame116_count": 5227,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778267087026,
+        "phase_hex": "4045",
+        "phase_sum": 133,
+        "family131": "fc14",
+        "family260": "fc14"
+      },
+      {
+        "ts_ms": 1778267087053,
+        "phase_hex": "4246",
+        "phase_sum": 136,
+        "family131": "fc12",
+        "family260": "fc11"
+      },
+      {
+        "ts_ms": 1778267087075,
+        "phase_hex": "4246",
+        "phase_sum": 136,
+        "family131": "fc11",
+        "family260": "fc0e"
+      },
+      {
+        "ts_ms": 1778267087122,
+        "phase_hex": "4246",
+        "phase_sum": 136,
+        "family131": "fc0a",
+        "family260": "fc08"
+      },
+      {
+        "ts_ms": 1778267087145,
+        "phase_hex": "4346",
+        "phase_sum": 137,
+        "family131": "fc0a",
+        "family260": "fc08"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_190621_003.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16999
+    },
+    "frame116_count": 5253,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": true,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": 1778267259813,
+    "top_tier_peak_count": 27,
+    "top_tier_peak_examples": [
+      {
+        "ts_ms": 1778267259813,
+        "phase_hex": "4d4e",
+        "phase_sum": 155,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778267259837,
+        "phase_hex": "4d4e",
+        "phase_sum": 155,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778267259861,
+        "phase_hex": "4d4e",
+        "phase_sum": 155,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778267259885,
+        "phase_hex": "4d4e",
+        "phase_sum": 155,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778267259909,
+        "phase_hex": "4d4e",
+        "phase_sum": 155,
+        "family131": "fff4",
+        "family260": "fff4"
+      }
+    ],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778267182249,
+        "phase_hex": "4043",
+        "phase_sum": 131,
+        "family131": "ffd3",
+        "family260": "ffd2"
+      },
+      {
+        "ts_ms": 1778267182270,
+        "phase_hex": "4043",
+        "phase_sum": 131,
+        "family131": "ffd7",
+        "family260": "ffd2"
+      },
+      {
+        "ts_ms": 1778267182292,
+        "phase_hex": "4043",
+        "phase_sum": 131,
+        "family131": "ffda",
+        "family260": "ffda"
+      },
+      {
+        "ts_ms": 1778267182321,
+        "phase_hex": "4043",
+        "phase_sum": 131,
+        "family131": "ffdd",
+        "family260": "ffda"
+      },
+      {
+        "ts_ms": 1778267182340,
+        "phase_hex": "4043",
+        "phase_sum": 131,
+        "family131": "ffe1",
+        "family260": "ffe5"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_190851_004.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16853
+    },
+    "frame116_count": 5225,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778267337613,
+        "phase_hex": "3953",
+        "phase_sum": 140,
+        "family131": "00b2",
+        "family260": "00ad"
+      },
+      {
+        "ts_ms": 1778267337636,
+        "phase_hex": "3e57",
+        "phase_sum": 149,
+        "family131": "00b2",
+        "family260": "00a8"
+      },
+      {
+        "ts_ms": 1778267337660,
+        "phase_hex": "4057",
+        "phase_sum": 151,
+        "family131": "00ad",
+        "family260": "00a3"
+      },
+      {
+        "ts_ms": 1778267337683,
+        "phase_hex": "4257",
+        "phase_sum": 153,
+        "family131": "00a3",
+        "family260": "009e"
+      },
+      {
+        "ts_ms": 1778267337706,
+        "phase_hex": "4357",
+        "phase_sum": 154,
+        "family131": "009e",
+        "family260": "0099"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_191119_005.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16573
+    },
+    "frame116_count": 5222,
+    "grade": "B",
+    "reason": "touches fff4|fff4 + 0000 but lacks full lifecycle",
+    "has_seed": true,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": 1778267495325,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778267480012,
+        "phase_hex": "9c9b",
+        "phase_sum": 311,
+        "family131": "0013",
+        "family260": null
+      },
+      {
+        "ts_ms": 1778267480037,
+        "phase_hex": "9c9a",
+        "phase_sum": 310,
+        "family131": "0013",
+        "family260": "0013"
+      },
+      {
+        "ts_ms": 1778267480061,
+        "phase_hex": "9c9a",
+        "phase_sum": 310,
+        "family131": "0013",
+        "family260": "0013"
+      },
+      {
+        "ts_ms": 1778267480086,
+        "phase_hex": "9c9b",
+        "phase_sum": 311,
+        "family131": "0013",
+        "family260": "0013"
+      },
+      {
+        "ts_ms": 1778267480131,
+        "phase_hex": "9c9a",
+        "phase_sum": 310,
+        "family131": "0013",
+        "family260": "0013"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_191348_006.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16189
+    },
+    "frame116_count": 5261,
+    "grade": "B",
+    "reason": "touches fff4|fff4 + 0000 but lacks full lifecycle",
+    "has_seed": true,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": 1778267691349,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778267669256,
+        "phase_hex": "3f43",
+        "phase_sum": 130,
+        "family131": "fba6",
+        "family260": "fba6"
+      },
+      {
+        "ts_ms": 1778267669280,
+        "phase_hex": "3f43",
+        "phase_sum": 130,
+        "family131": "fba6",
+        "family260": "fba4"
+      },
+      {
+        "ts_ms": 1778267669302,
+        "phase_hex": "3f43",
+        "phase_sum": 130,
+        "family131": "fba4",
+        "family260": "fb9d"
+      },
+      {
+        "ts_ms": 1778267669327,
+        "phase_hex": "3f43",
+        "phase_sum": 130,
+        "family131": "fb9d",
+        "family260": "fb9d"
+      },
+      {
+        "ts_ms": 1778267669349,
+        "phase_hex": "4043",
+        "phase_sum": 131,
+        "family131": "fb9d",
+        "family260": "fb9e"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_191618_007.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16839
+    },
+    "frame116_count": 5179,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778267818527,
+        "phase_hex": "3657",
+        "phase_sum": 141,
+        "family131": "0006",
+        "family260": "0006"
+      },
+      {
+        "ts_ms": 1778267818542,
+        "phase_hex": "4063",
+        "phase_sum": 163,
+        "family131": "0006",
+        "family260": "0006"
+      },
+      {
+        "ts_ms": 1778267818586,
+        "phase_hex": "557d",
+        "phase_sum": 210,
+        "family131": "0006",
+        "family260": "0006"
+      },
+      {
+        "ts_ms": 1778267818611,
+        "phase_hex": "5c86",
+        "phase_sum": 226,
+        "family131": "0006",
+        "family260": "0005"
+      },
+      {
+        "ts_ms": 1778267818634,
+        "phase_hex": "6694",
+        "phase_sum": 250,
+        "family131": "0006",
+        "family260": "0005"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_191845_008.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16786
+    },
+    "frame116_count": 5198,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778268002446,
+        "phase_hex": "3e51",
+        "phase_sum": 143,
+        "family131": "ffcb",
+        "family260": "ffcf"
+      },
+      {
+        "ts_ms": 1778268002470,
+        "phase_hex": "4456",
+        "phase_sum": 154,
+        "family131": "ffcc",
+        "family260": "ffcf"
+      },
+      {
+        "ts_ms": 1778268002497,
+        "phase_hex": "4859",
+        "phase_sum": 161,
+        "family131": "ffcc",
+        "family260": "ffcf"
+      },
+      {
+        "ts_ms": 1778268002517,
+        "phase_hex": "4b5a",
+        "phase_sum": 165,
+        "family131": "ffcc",
+        "family260": "ffcf"
+      },
+      {
+        "ts_ms": 1778268002539,
+        "phase_hex": "4d5b",
+        "phase_sum": 168,
+        "family131": "ffce",
+        "family260": "ffcf"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_192111_009.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16649
+    },
+    "frame116_count": 5209,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778268201375,
+        "phase_hex": "3f43",
+        "phase_sum": 130,
+        "family131": "ffea",
+        "family260": "fff0"
+      },
+      {
+        "ts_ms": 1778268201397,
+        "phase_hex": "4045",
+        "phase_sum": 133,
+        "family131": "fff0",
+        "family260": "fff5"
+      },
+      {
+        "ts_ms": 1778268201444,
+        "phase_hex": "444a",
+        "phase_sum": 142,
+        "family131": "fff9",
+        "family260": "fffd"
+      },
+      {
+        "ts_ms": 1778268201494,
+        "phase_hex": "464c",
+        "phase_sum": 146,
+        "family131": "0006",
+        "family260": "000a"
+      },
+      {
+        "ts_ms": 1778268201516,
+        "phase_hex": "474d",
+        "phase_sum": 148,
+        "family131": "000a",
+        "family260": "000d"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_192336_010.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16501
+    },
+    "frame116_count": 5157,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_192600_011.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 15893
+    },
+    "frame116_count": 5211,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": true,
+    "has_exit": true,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": 1778268428611,
+    "top_tier_peak_count": 6,
+    "top_tier_peak_examples": [
+      {
+        "ts_ms": 1778268428611,
+        "phase_hex": "506c",
+        "phase_sum": 188,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778268428633,
+        "phase_hex": "526c",
+        "phase_sum": 190,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778268428656,
+        "phase_hex": "556c",
+        "phase_sum": 193,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778268428679,
+        "phase_hex": "586c",
+        "phase_sum": 196,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778268428704,
+        "phase_hex": "5b6c",
+        "phase_sum": 199,
+        "family131": "fff4",
+        "family260": "fff4"
+      }
+    ],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778268386237,
+        "phase_hex": "3f57",
+        "phase_sum": 150,
+        "family131": "fff4",
+        "family260": "fff8"
+      },
+      {
+        "ts_ms": 1778268386262,
+        "phase_hex": "4359",
+        "phase_sum": 156,
+        "family131": "fff1",
+        "family260": "fff8"
+      },
+      {
+        "ts_ms": 1778268386285,
+        "phase_hex": "455a",
+        "phase_sum": 159,
+        "family131": "fff0",
+        "family260": "fff7"
+      },
+      {
+        "ts_ms": 1778268386308,
+        "phase_hex": "475a",
+        "phase_sum": 161,
+        "family131": "fff0",
+        "family260": "fff7"
+      },
+      {
+        "ts_ms": 1778268386332,
+        "phase_hex": "4959",
+        "phase_sum": 162,
+        "family131": "ffef",
+        "family260": "fff4"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_192827_012.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16859
+    },
+    "frame116_count": 5279,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778268524375,
+        "phase_hex": "3e45",
+        "phase_sum": 131,
+        "family131": "000a",
+        "family260": "0009"
+      },
+      {
+        "ts_ms": 1778268524423,
+        "phase_hex": "3f44",
+        "phase_sum": 131,
+        "family131": "000b",
+        "family260": "0007"
+      },
+      {
+        "ts_ms": 1778268524444,
+        "phase_hex": "3f44",
+        "phase_sum": 131,
+        "family131": "000a",
+        "family260": "0007"
+      },
+      {
+        "ts_ms": 1778268524471,
+        "phase_hex": "3f44",
+        "phase_sum": 131,
+        "family131": "000a",
+        "family260": "0007"
+      },
+      {
+        "ts_ms": 1778268524492,
+        "phase_hex": "4044",
+        "phase_sum": 132,
+        "family131": "000b",
+        "family260": "0008"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_193058_013.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16808
+    },
+    "frame116_count": 5231,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_193326_014.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16476
+    },
+    "frame116_count": 5304,
+    "grade": "B",
+    "reason": "touches fff4|fff4 + 0000 but lacks full lifecycle",
+    "has_seed": true,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": 1778268886398,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778268905782,
+        "phase_hex": "4665",
+        "phase_sum": 171,
+        "family131": "0067",
+        "family260": "0067"
+      },
+      {
+        "ts_ms": 1778268905806,
+        "phase_hex": "4b69",
+        "phase_sum": 180,
+        "family131": "0067",
+        "family260": "0067"
+      },
+      {
+        "ts_ms": 1778268905830,
+        "phase_hex": "4c65",
+        "phase_sum": 177,
+        "family131": "006a",
+        "family260": "006e"
+      },
+      {
+        "ts_ms": 1778268905852,
+        "phase_hex": "4c5a",
+        "phase_sum": 166,
+        "family131": "006e",
+        "family260": "0074"
+      },
+      {
+        "ts_ms": 1778268905875,
+        "phase_hex": "4c51",
+        "phase_sum": 157,
+        "family131": "0074",
+        "family260": "007e"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_193555_015.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16796
+    },
+    "frame116_count": 5209,
+    "grade": "B",
+    "reason": "touches fff4|fff4 + 0000 but lacks full lifecycle",
+    "has_seed": true,
+    "has_ramp": true,
+    "has_plateau": true,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": 1778269009368,
+    "plateau_ts": 1778269103252,
+    "top_tier_peak_count": 2,
+    "top_tier_peak_examples": [
+      {
+        "ts_ms": 1778269103252,
+        "phase_hex": "4a4a",
+        "phase_sum": 148,
+        "family131": "fff4",
+        "family260": "fff4"
+      },
+      {
+        "ts_ms": 1778269103270,
+        "phase_hex": "4a4a",
+        "phase_sum": 148,
+        "family131": "fff4",
+        "family260": "fff4"
+      }
+    ],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778269023474,
+        "phase_hex": "4141",
+        "phase_sum": 130,
+        "family131": "000c",
+        "family260": "000c"
+      },
+      {
+        "ts_ms": 1778269023497,
+        "phase_hex": "4141",
+        "phase_sum": 130,
+        "family131": "000c",
+        "family260": "000c"
+      },
+      {
+        "ts_ms": 1778269023520,
+        "phase_hex": "4141",
+        "phase_sum": 130,
+        "family131": "000c",
+        "family260": "000c"
+      },
+      {
+        "ts_ms": 1778269023545,
+        "phase_hex": "4141",
+        "phase_sum": 130,
+        "family131": "000c",
+        "family260": "000c"
+      },
+      {
+        "ts_ms": 1778269023568,
+        "phase_hex": "4141",
+        "phase_sum": 130,
+        "family131": "000c",
+        "family260": "000c"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_193824_016.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 16225
+    },
+    "frame116_count": 5210,
+    "grade": "B",
+    "reason": "touches fff4|fff4 + 0000 but lacks full lifecycle",
+    "has_seed": true,
+    "has_ramp": true,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": 1778269149432,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": [
+      {
+        "ts_ms": 1778269104730,
+        "phase_hex": "4242",
+        "phase_sum": 132,
+        "family131": null,
+        "family260": "0098"
+      },
+      {
+        "ts_ms": 1778269104752,
+        "phase_hex": "4243",
+        "phase_sum": 133,
+        "family131": "0098",
+        "family260": "0099"
+      },
+      {
+        "ts_ms": 1778269104775,
+        "phase_hex": "4243",
+        "phase_sum": 133,
+        "family131": "0098",
+        "family260": "0099"
+      },
+      {
+        "ts_ms": 1778269104800,
+        "phase_hex": "4243",
+        "phase_sum": 133,
+        "family131": "0099",
+        "family260": "0099"
+      },
+      {
+        "ts_ms": 1778269104822,
+        "phase_hex": "4243",
+        "phase_sum": 133,
+        "family131": "0099",
+        "family260": "0099"
+      }
+    ]
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_194050_017.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 14379
+    },
+    "frame116_count": 4494,
+    "grade": "C",
+    "reason": "corridor activity without full seed state",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": true,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_194316_018.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {},
+    "frame116_count": 0,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_UNKNOWN_20251125_181721_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 65
+    },
+    "frame116_count": 24,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_UNKNOWN_20251125_181724_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {},
+    "frame116_count": 0,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  },
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_UNKNOWN_20260508_184957_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 106
+    },
+    "frame116_count": 37,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  }
+]

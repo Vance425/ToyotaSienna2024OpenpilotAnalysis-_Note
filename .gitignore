@@ -1,0 +1,15 @@
+﻿.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+*.pyc.*
+
+# Raw CAN logs are kept local-only for this Note repository.
+logs/
+*.ndjson
+
+# Private key material must never be committed.
+*SecOCKey*
+*private_key*
+*.key

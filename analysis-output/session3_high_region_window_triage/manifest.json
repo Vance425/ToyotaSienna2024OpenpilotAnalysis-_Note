@@ -1,0 +1,10 @@
+{
+  "inputs": [
+    "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_193555_015.ndjson",
+    "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_193824_016.ndjson",
+    "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_193747_008.ndjson"
+  ],
+  "window_ms": 15000,
+  "step_ms": 5000,
+  "bus": 0
+}

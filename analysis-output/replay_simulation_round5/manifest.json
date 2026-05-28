@@ -1,0 +1,53 @@
+{
+  "samples": [
+    {
+      "sample_id": "anchor_190101_window",
+      "regime": "anchor_window",
+      "sample_path": "<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260312_190101_000.ndjson",
+      "window": "abs:1773342240000.0->abs:1773342255000.0"
+    },
+    {
+      "sample_id": "partial_171414_ramp",
+      "regime": "partial_ramp_window",
+      "sample_path": "<LOCAL_RAW_CAN_LOG>/20260316/raw_can_logs/toyota_seg_IGN_ON_20260315_171414_000.ndjson",
+      "window": "rel:390.0->rel:420.0"
+    },
+    {
+      "sample_id": "compact_184921_ramp",
+      "regime": "compact_partial_window",
+      "sample_path": "<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260311_184921_000.ndjson",
+      "window": "rel:90.0->rel:105.0"
+    },
+    {
+      "sample_id": "city_20260418_active_band4",
+      "regime": "city_active_window",
+      "sample_path": "<LOCAL_RAW_CAN_LOG>/20260418/raw_can_logs/toyota_seg_IGN_ON_20260418_163136_000.ndjson",
+      "window": "rel:90.0->rel:120.0"
+    },
+    {
+      "sample_id": "city_20260418_hold_early",
+      "regime": "city_hold_window",
+      "sample_path": "<LOCAL_RAW_CAN_LOG>/20260418/raw_can_logs/toyota_all_20260418_175240_000.ndjson",
+      "window": "rel:1.0->rel:181.0"
+    },
+    {
+      "sample_id": "entry_20260426_s2_best",
+      "regime": "entry_bridge_window",
+      "sample_path": "<LOCAL_RAW_CAN_LOG>/20260426/raw_can_logs/toyota_all_20260426_045606_007.ndjson",
+      "window": "abs:1777179519494.0->abs:1777179579494.0"
+    }
+  ],
+  "decode_modes": [
+    "no_b1_flip"
+  ],
+  "slew_limits": [
+    75.0,
+    100.0,
+    125.0
+  ],
+  "modes": [
+    "bounded",
+    "identity"
+  ],
+  "output_dir": "<LOCAL_ANALYSIS_WORKSPACE>/analysis-output/replay_simulation_round5"
+}

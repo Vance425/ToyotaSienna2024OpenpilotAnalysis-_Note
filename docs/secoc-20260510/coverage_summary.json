@@ -1,0 +1,42 @@
+{
+  "runs": [
+    "sienna2024_secoc_dump_20260510_050627",
+    "sienna2024_secoc_dump_20260510_050727",
+    "sienna2024_secoc_dump_20260510_050947",
+    "sienna2024_secoc_dump_20260510_051107",
+    "sienna2024_secoc_dump_20260510_051336"
+  ],
+  "range": [
+    "0xff200000",
+    "0xff208000"
+  ],
+  "union_slots": 7979,
+  "union_bytes": 31916,
+  "intersection_slots": 288,
+  "intersection_bytes": 1152,
+  "conflict_slots": 1084,
+  "first_missing_union": "0xff20005c",
+  "first_conflicts": [
+    "0xff200018",
+    "0xff200040",
+    "0xff20006c",
+    "0xff20007c",
+    "0xff200090",
+    "0xff20009c",
+    "0xff2000c8",
+    "0xff2000d0",
+    "0xff2000e8",
+    "0xff2000ec",
+    "0xff2000f4",
+    "0xff2000fc",
+    "0xff2001ac",
+    "0xff2001bc",
+    "0xff2001c4",
+    "0xff2001f0",
+    "0xff200218",
+    "0xff200238",
+    "0xff20026c",
+    "0xff200288"
+  ],
+  "merged_file": "<LOCAL_CODEX>\\secoc\\out\\dataflash_20260510_new_coverage_merged.bin"
+}

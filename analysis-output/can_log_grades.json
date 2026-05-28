@@ -1,0 +1,176 @@
+[
+    {
+        "file":  "<LOCAL_RAW_CAN_LOG>\\20260426\\raw_can_logs\\toyota_all_20260426_053902_000.ndjson",
+        "bus":  0,
+        "parse_errors":  0,
+        "bus_counts":  [
+                           {
+                               "bus":  "0",
+                               "count":  33292
+                           }
+                       ],
+        "frame116_count":  10568,
+        "grade":  "B",
+        "reason":  "touches fff4|fff4 + 0000 but lacks full lifecycle",
+        "has_seed":  true,
+        "has_ramp":  false,
+        "has_plateau":  false,
+        "has_exit":  false,
+        "has_corridor":  true,
+        "seed_ts":  1777181967265,
+        "plateau_ts":  null,
+        "top_tier_peak_count":  0,
+        "top_tier_peak_examples":  [
+
+                                   ],
+        "positive_high_phase_examples":  [
+
+                                         ]
+    },
+    {
+        "file":  "<LOCAL_RAW_CAN_LOG>\\20260426\\raw_can_logs\\toyota_all_20260426_054402_001.ndjson",
+        "bus":  0,
+        "parse_errors":  0,
+        "bus_counts":  [
+                           {
+                               "bus":  "0",
+                               "count":  32512
+                           }
+                       ],
+        "frame116_count":  10317,
+        "grade":  "B",
+        "reason":  "touches fff4|fff4 + 0000 but lacks full lifecycle",
+        "has_seed":  true,
+        "has_ramp":  true,
+        "has_plateau":  false,
+        "has_exit":  false,
+        "has_corridor":  true,
+        "seed_ts":  1777182376478,
+        "plateau_ts":  null,
+        "top_tier_peak_count":  0,
+        "top_tier_peak_examples":  [
+
+                                   ],
+        "positive_high_phase_examples":  [
+                                             {
+                                                 "ts_ms":  1777182459030,
+                                                 "phase_hex":  "3f45",
+                                                 "phase_sum":  132,
+                                                 "family131":  "00c5",
+                                                 "family260":  "00c3",
+                                                 "raw_data":  "3f450000649ce2a4"
+                                             },
+                                             {
+                                                 "ts_ms":  1777182459054,
+                                                 "phase_hex":  "4146",
+                                                 "phase_sum":  135,
+                                                 "family131":  "00c3",
+                                                 "family260":  "00c2",
+                                                 "raw_data":  "41460000a85e55a0"
+                                             },
+                                             {
+                                                 "ts_ms":  1777182459080,
+                                                 "phase_hex":  "4146",
+                                                 "phase_sum":  135,
+                                                 "family131":  "00c2",
+                                                 "family260":  "00c0",
+                                                 "raw_data":  "41460000e750458b"
+                                             },
+                                             {
+                                                 "ts_ms":  1777182459101,
+                                                 "phase_hex":  "4247",
+                                                 "phase_sum":  137,
+                                                 "family131":  "00c2",
+                                                 "family260":  "00be",
+                                                 "raw_data":  "424700002061be5b"
+                                             },
+                                             {
+                                                 "ts_ms":  1777182459149,
+                                                 "phase_hex":  "454a",
+                                                 "phase_sum":  143,
+                                                 "family131":  "00be",
+                                                 "family260":  "00b8",
+                                                 "raw_data":  "454a0000b77d59f3"
+                                             }
+                                         ]
+    },
+    {
+        "file":  "<LOCAL_RAW_CAN_LOG>\\20260426\\raw_can_logs\\toyota_all_20260426_054856_002.ndjson",
+        "bus":  0,
+        "parse_errors":  0,
+        "bus_counts":  [
+                           {
+                               "bus":  "0",
+                               "count":  32506
+                           }
+                       ],
+        "frame116_count":  10347,
+        "grade":  "C",
+        "reason":  "corridor activity without full seed state",
+        "has_seed":  false,
+        "has_ramp":  true,
+        "has_plateau":  false,
+        "has_exit":  false,
+        "has_corridor":  true,
+        "seed_ts":  null,
+        "plateau_ts":  null,
+        "top_tier_peak_count":  0,
+        "top_tier_peak_examples":  [
+
+                                   ],
+        "positive_high_phase_examples":  [
+
+                                         ]
+    },
+    {
+        "file":  "<LOCAL_RAW_CAN_LOG>\\20260426\\raw_can_logs\\toyota_all_20260426_055355_003.ndjson",
+        "bus":  0,
+        "parse_errors":  0,
+        "bus_counts":  [
+                           {
+                               "bus":  "0",
+                               "count":  21298
+                           }
+                       ],
+        "frame116_count":  6587,
+        "grade":  "C",
+        "reason":  "corridor activity without full seed state",
+        "has_seed":  false,
+        "has_ramp":  false,
+        "has_plateau":  false,
+        "has_exit":  false,
+        "has_corridor":  true,
+        "seed_ts":  null,
+        "plateau_ts":  null,
+        "top_tier_peak_count":  0,
+        "top_tier_peak_examples":  [
+
+                                   ],
+        "positive_high_phase_examples":  [
+                                             {
+                                                 "ts_ms":  1777182951171,
+                                                 "phase_hex":  "4c52",
+                                                 "phase_sum":  158,
+                                                 "family131":  "067a",
+                                                 "family260":  "11f1",
+                                                 "raw_data":  "4c520000fd23186a"
+                                             },
+                                             {
+                                                 "ts_ms":  1777182951189,
+                                                 "phase_hex":  "4e4d",
+                                                 "phase_sum":  155,
+                                                 "family131":  "067a",
+                                                 "family260":  "11a7",
+                                                 "raw_data":  "4e4d00003d56c001"
+                                             },
+                                             {
+                                                 "ts_ms":  1777182951214,
+                                                 "phase_hex":  "4a46",
+                                                 "phase_sum":  144,
+                                                 "family131":  "067a",
+                                                 "family260":  "110f",
+                                                 "raw_data":  "4a46000079b92a34"
+                                             }
+                                         ]
+    }
+]

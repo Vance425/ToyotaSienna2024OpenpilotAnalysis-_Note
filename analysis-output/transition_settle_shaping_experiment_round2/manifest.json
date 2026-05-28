@@ -1,0 +1,57 @@
+{
+  "samples": [
+    {
+      "sample_id": "city_20260418_late_stop_approach",
+      "regime": "city_approach_window",
+      "path": "<LOCAL_RAW_CAN_LOG>\\20260418\\raw_can_logs\\toyota_seg_IGN_ON_20260418_181012_007.ndjson"
+    },
+    {
+      "sample_id": "city_20260418_transition_settle",
+      "regime": "city_transition_window",
+      "path": "<LOCAL_RAW_CAN_LOG>\\20260418\\raw_can_logs\\toyota_seg_IGN_ON_20260418_181012_007.ndjson"
+    },
+    {
+      "sample_id": "city_20260418_final_hold",
+      "regime": "city_final_hold_window",
+      "path": "<LOCAL_RAW_CAN_LOG>\\20260418\\raw_can_logs\\toyota_seg_IGN_ON_20260418_181012_007.ndjson"
+    }
+  ],
+  "variants": [
+    {
+      "name": "baseline",
+      "slew": 175.0,
+      "regime_gate": null,
+      "neg_threshold": null,
+      "neg_boost": 1.0
+    },
+    {
+      "name": "transition_only_neg2k_boost_1p25",
+      "slew": 175.0,
+      "regime_gate": "city_transition_window",
+      "neg_threshold": -2000.0,
+      "neg_boost": 1.25
+    },
+    {
+      "name": "transition_only_neg2k_boost_1p50",
+      "slew": 175.0,
+      "regime_gate": "city_transition_window",
+      "neg_threshold": -2000.0,
+      "neg_boost": 1.5
+    },
+    {
+      "name": "transition_only_neg2k_boost_2p00",
+      "slew": 175.0,
+      "regime_gate": "city_transition_window",
+      "neg_threshold": -2000.0,
+      "neg_boost": 2.0
+    },
+    {
+      "name": "transition_only_neg3k_boost_2p00",
+      "slew": 175.0,
+      "regime_gate": "city_transition_window",
+      "neg_threshold": -3000.0,
+      "neg_boost": 2.0
+    }
+  ],
+  "output_dir": "<LOCAL_ANALYSIS_WORKSPACE>/analysis-output/transition_settle_shaping_experiment_round2"
+}

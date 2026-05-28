@@ -1,0 +1,11 @@
+{
+  "window_ms": 15000,
+  "step_ms": 5000,
+  "candidates": [
+    "<LOCAL_RAW_CAN_LOG>\\20260426\\raw_can_logs\\toyota_all_20260426_045606_007.ndjson",
+    "<LOCAL_RAW_CAN_LOG>\\20260426\\raw_can_logs\\toyota_seg_IGN_ON_20260426_045640_014.ndjson",
+    "<LOCAL_RAW_CAN_LOG>\\20260426\\raw_can_logs\\toyota_all_20260426_051051_010.ndjson",
+    "<LOCAL_RAW_CAN_LOG>\\20260426\\raw_can_logs\\toyota_seg_IGN_ON_20260426_051136_020.ndjson"
+  ],
+  "output_dir": "<LOCAL_ANALYSIS_WORKSPACE>/analysis-output/bridge_gap_window_triage"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "file": "<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_184958_000.ndjson",
+    "bus": 0,
+    "parse_errors": 0,
+    "bus_counts": {
+      "0": 3728
+    },
+    "frame116_count": 1152,
+    "grade": "D",
+    "reason": "no seed/corridor pattern",
+    "has_seed": false,
+    "has_ramp": false,
+    "has_plateau": false,
+    "has_exit": false,
+    "has_corridor": false,
+    "seed_ts": null,
+    "plateau_ts": null,
+    "top_tier_peak_count": 0,
+    "top_tier_peak_examples": [],
+    "positive_high_phase_examples": []
+  }
+]

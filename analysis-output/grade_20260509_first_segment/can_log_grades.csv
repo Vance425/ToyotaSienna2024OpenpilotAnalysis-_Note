@@ -1,0 +1,2 @@
+file,grade,reason,has_seed,has_ramp,has_plateau,has_exit,has_corridor,seed_ts,plateau_ts,top_tier_peak_count,frame116_count
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_184958_000.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,1152

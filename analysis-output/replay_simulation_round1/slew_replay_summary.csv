@@ -1,0 +1,10 @@
+sample_id,regime,sample_path,slew_limit,parse_errors,frames_260,status,point_mae,point_p95_abs_error,delta_mae,delta_p95_abs_error,oversmoothed_ratio,undersmoothed_ratio,target_pos_saturation_ratio,target_neg_saturation_ratio,replay_pos_saturation_ratio,replay_neg_saturation_ratio
+anchor_190101,anchor,<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260312_190101_000.ndjson,25.0,0,17382,ok,1334.368,7803.1,200.282,494.0,0.366,0.39,0.081,0.041,0.027,0.003
+anchor_190101,anchor,<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260312_190101_000.ndjson,50.0,0,17382,ok,1157.028,7684.7,200.479,469.0,0.368,0.327,0.081,0.041,0.036,0.006
+anchor_190101,anchor,<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260312_190101_000.ndjson,75.0,0,17382,ok,1031.673,7605.0,197.222,444.0,0.373,0.274,0.081,0.041,0.045,0.009
+partial_171414,partial_ramp,<LOCAL_RAW_CAN_LOG>/20260316/raw_can_logs/toyota_seg_IGN_ON_20260315_171414_000.ndjson,25.0,0,27306,ok,322.106,1341.0,78.088,266.0,0.251,0.338,0.002,0.009,0.0,0.001
+partial_171414,partial_ramp,<LOCAL_RAW_CAN_LOG>/20260316/raw_can_logs/toyota_seg_IGN_ON_20260315_171414_000.ndjson,50.0,0,27306,ok,233.717,577.75,77.355,229.0,0.246,0.28,0.002,0.009,0.0,0.002
+partial_171414,partial_ramp,<LOCAL_RAW_CAN_LOG>/20260316/raw_can_logs/toyota_seg_IGN_ON_20260315_171414_000.ndjson,75.0,0,27306,ok,189.697,379.0,73.686,200.0,0.246,0.226,0.002,0.009,0.0,0.003
+compact_184921,compact_partial,<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260311_184921_000.ndjson,25.0,0,7877,ok,220.158,1082.4,67.366,262.25,0.225,0.339,0.0,0.0,0.0,0.0
+compact_184921,compact_partial,<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260311_184921_000.ndjson,50.0,0,7877,ok,127.804,519.2,66.527,222.0,0.224,0.269,0.0,0.0,0.0,0.0
+compact_184921,compact_partial,<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260311_184921_000.ndjson,75.0,0,7877,ok,84.989,381.2,63.266,195.0,0.223,0.22,0.0,0.0,0.0,0.0

@@ -1,0 +1,57 @@
+{
+  "samples": [
+    {
+      "sample_id": "city_20260418_late_stop_approach",
+      "regime": "city_approach_window",
+      "path": "<LOCAL_RAW_CAN_LOG>\\20260418\\raw_can_logs\\toyota_seg_IGN_ON_20260418_181012_007.ndjson"
+    },
+    {
+      "sample_id": "city_20260418_transition_settle_tail",
+      "regime": "city_transition_settle_tail",
+      "path": "<LOCAL_RAW_CAN_LOG>\\20260418\\raw_can_logs\\toyota_seg_IGN_ON_20260418_181012_007.ndjson"
+    },
+    {
+      "sample_id": "city_20260418_final_hold",
+      "regime": "city_final_hold_window",
+      "path": "<LOCAL_RAW_CAN_LOG>\\20260418\\raw_can_logs\\toyota_seg_IGN_ON_20260418_181012_007.ndjson"
+    }
+  ],
+  "variants": [
+    {
+      "name": "baseline",
+      "slew": 175.0,
+      "regime_gate": null,
+      "low_band_limit": null,
+      "low_band_boost": 1.0
+    },
+    {
+      "name": "low_band_catchup_2p50",
+      "slew": 175.0,
+      "regime_gate": "city_transition_settle_tail",
+      "low_band_limit": 100.0,
+      "low_band_boost": 2.5
+    },
+    {
+      "name": "low_band_catchup_3p00",
+      "slew": 175.0,
+      "regime_gate": "city_transition_settle_tail",
+      "low_band_limit": 100.0,
+      "low_band_boost": 3.0
+    },
+    {
+      "name": "low_band_catchup_3p50",
+      "slew": 175.0,
+      "regime_gate": "city_transition_settle_tail",
+      "low_band_limit": 100.0,
+      "low_band_boost": 3.5
+    },
+    {
+      "name": "low_band_catchup_4p00",
+      "slew": 175.0,
+      "regime_gate": "city_transition_settle_tail",
+      "low_band_limit": 100.0,
+      "low_band_boost": 4.0
+    }
+  ],
+  "output_dir": "<LOCAL_ANALYSIS_WORKSPACE>/analysis-output/transition_settle_shaping_experiment_round4"
+}

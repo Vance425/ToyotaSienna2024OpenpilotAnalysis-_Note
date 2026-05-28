@@ -1,0 +1,16 @@
+sample_id,regime,variant,base_slew,regime_gate,neg_threshold,neg_boost,parse_errors,frames_260,point_mae,point_p95_abs_error,delta_mae,delta_p95_abs_error
+city_20260418_late_stop_approach,city_approach_window,baseline,175.0,,,1.0,0,1288,14.1,81.0,18.267,81.0
+city_20260418_late_stop_approach,city_approach_window,transition_only_neg2k_boost_1p25,175.0,city_transition_window,-2000.0,1.25,0,1288,14.1,81.0,18.267,81.0
+city_20260418_late_stop_approach,city_approach_window,transition_only_neg2k_boost_1p50,175.0,city_transition_window,-2000.0,1.5,0,1288,14.1,81.0,18.267,81.0
+city_20260418_late_stop_approach,city_approach_window,transition_only_neg2k_boost_2p00,175.0,city_transition_window,-2000.0,2.0,0,1288,14.1,81.0,18.267,81.0
+city_20260418_late_stop_approach,city_approach_window,transition_only_neg3k_boost_2p00,175.0,city_transition_window,-3000.0,2.0,0,1288,14.1,81.0,18.267,81.0
+city_20260418_transition_settle,city_transition_window,baseline,175.0,,,1.0,0,1318,75.697,521.4,26.249,104.2
+city_20260418_transition_settle,city_transition_window,transition_only_neg2k_boost_1p25,175.0,city_transition_window,-2000.0,1.25,0,1318,83.359,562.3,26.376,107.0
+city_20260418_transition_settle,city_transition_window,transition_only_neg2k_boost_1p50,175.0,city_transition_window,-2000.0,1.5,0,1318,84.292,589.475,26.162,108.2
+city_20260418_transition_settle,city_transition_window,transition_only_neg2k_boost_2p00,175.0,city_transition_window,-2000.0,2.0,0,1318,82.149,313.3,26.059,107.0
+city_20260418_transition_settle,city_transition_window,transition_only_neg3k_boost_2p00,175.0,city_transition_window,-3000.0,2.0,0,1318,86.265,582.4,26.539,107.2
+city_20260418_final_hold,city_final_hold_window,baseline,175.0,,,1.0,0,1051,8.885,81.0,17.71,82.0
+city_20260418_final_hold,city_final_hold_window,transition_only_neg2k_boost_1p25,175.0,city_transition_window,-2000.0,1.25,0,1051,8.885,81.0,17.71,82.0
+city_20260418_final_hold,city_final_hold_window,transition_only_neg2k_boost_1p50,175.0,city_transition_window,-2000.0,1.5,0,1051,8.885,81.0,17.71,82.0
+city_20260418_final_hold,city_final_hold_window,transition_only_neg2k_boost_2p00,175.0,city_transition_window,-2000.0,2.0,0,1051,8.885,81.0,17.71,82.0
+city_20260418_final_hold,city_final_hold_window,transition_only_neg3k_boost_2p00,175.0,city_transition_window,-3000.0,2.0,0,1051,8.885,81.0,17.71,82.0

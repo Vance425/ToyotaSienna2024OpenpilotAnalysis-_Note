@@ -1,0 +1,54 @@
+<!-- 中文化說明：本文件已轉為中文閱讀版；技術名詞保留原文。 -->
+# 中文文件?historical-auto-grade-report
+
+## 文件定位
+本文件屬於研究庫，用於記錄分析、判斷與後續整理。
+
+## 關鍵重點
+- 重點：`Grade A`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`Grade B`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`Grade C`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`Grade D`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Matrix；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Queue；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Grade A；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260312_190100_000.ndjson](D:/Temp/20260312/raw_can_logs/raw_can_logs/toyota_all_20260312_190100_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`1773342240518`?`1773342250785`?`2`?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260312_190101_000.ndjson](D:/Temp/20260312/raw_can_logs/raw_can_logs/toyota_seg_IGN_ON_20260312_190101_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260312_190100_000.ndjson](D:/Temp/20260312/raw_can_logs/toyota_all_20260312_190100_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260312_190101_000.ndjson](D:/Temp/20260312/raw_can_logs/toyota_seg_IGN_ON_20260312_190101_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Grade B；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260307_164838_000.ndjson](D:/Codex/toyota-sienna-tsk-analysis/analysis-input/raw_can_logs/toyota_all_20260307_164838_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`1772902235085`?`True`?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`4143`?`f986`?`f2d4`?`1772902142985`?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260311_184920_000.ndjson](D:/Codex/toyota-sienna-tsk-analysis/analysis-input/raw_can_logs/toyota_all_20260311_184920_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`1773254998151`?`True`?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260311_184921_000.ndjson](D:/Codex/toyota-sienna-tsk-analysis/analysis-input/raw_can_logs/toyota_seg_IGN_ON_20260311_184921_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260314_173821_000.ndjson](D:/Temp/20260312/raw_can_logs/20260314/raw_can_logs/toyota_all_20260314_173821_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`1773510290447`?`True`?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260314_175246_001.ndjson](D:/Temp/20260312/raw_can_logs/20260314/raw_can_logs/toyota_all_20260314_175246_001.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`1773510858591`?`True`?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`4141`?`0098`?`009b`?`1773510803316`?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260314_173834_000.ndjson](D:/Temp/20260312/raw_can_logs/20260314/raw_can_logs/toyota_seg_IGN_ON_20260314_173834_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260314_175006_001.ndjson](D:/Temp/20260312/raw_can_logs/20260314/raw_can_logs/toyota_seg_IGN_ON_20260314_175006_001.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260307_164838_000.ndjson](D:/Temp/20260312/raw_can_logs/raw_can_logs/toyota_all_20260307_164838_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260311_184920_000.ndjson](D:/Temp/20260312/raw_can_logs/raw_can_logs/toyota_all_20260311_184920_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260312_185519_000.ndjson](D:/Temp/20260312/raw_can_logs/raw_can_logs/toyota_all_20260312_185519_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`1773341749887`?`False`?`True`?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260311_184921_000.ndjson](D:/Temp/20260312/raw_can_logs/raw_can_logs/toyota_seg_IGN_ON_20260311_184921_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260312_185520_000.ndjson](D:/Temp/20260312/raw_can_logs/raw_can_logs/toyota_seg_IGN_ON_20260312_185520_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260307_164838_000.ndjson](D:/Temp/20260312/raw_can_logs/raw_can_logs_0310/toyota_all_20260307_164838_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260307_164838_000.ndjson](D:/Temp/20260312/raw_can_logs/toyota_all_20260307_164838_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260311_184920_000.ndjson](D:/Temp/20260312/raw_can_logs/toyota_all_20260311_184920_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_all_20260312_185519_000.ndjson](D:/Temp/20260312/raw_can_logs/toyota_all_20260312_185519_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260311_184921_000.ndjson](D:/Temp/20260312/raw_can_logs/toyota_seg_IGN_ON_20260311_184921_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260312_185520_000.ndjson](D:/Temp/20260312/raw_can_logs/toyota_seg_IGN_ON_20260312_185520_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：此項描述分析條件、觀察結果或後續動作，已整理為中文。
+- 重點：`Grade B`?`fff4|fff4 + 00 00`；此項說明其條件、角色或判斷，技術名詞保留原文。
+
+## 保留的技術名詞與資料
+- program / script / log spec / CAN ID / DBC signal / file path / command 保留原文。
+- 表格中的欄位名、檔名、 frame ID 與數值保留原文，以避免誤譯分析結果。
+
+## 後續整理
+後續可再依原始 log 與表格人工精修。

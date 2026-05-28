@@ -1,0 +1,13 @@
+sample_id,regime,variant,base_slew,neg_threshold,neg_boost,parse_errors,frames_260,point_mae,point_p95_abs_error,delta_mae,delta_p95_abs_error
+city_20260418_late_stop_approach,city_approach_window,baseline,175.0,,1.0,0,1288,14.1,81.0,18.267,81.0
+city_20260418_late_stop_approach,city_approach_window,neg_tail_boost_1p25,175.0,-1000.0,1.25,0,1288,13.578,81.0,17.669,81.0
+city_20260418_late_stop_approach,city_approach_window,neg_tail_boost_1p50,175.0,-1000.0,1.5,0,1288,13.198,81.0,17.218,81.0
+city_20260418_late_stop_approach,city_approach_window,neg_tail_boost_2p00,175.0,-1000.0,2.0,0,1288,12.991,81.0,17.075,81.0
+city_20260418_transition_settle,city_transition_window,baseline,175.0,,1.0,0,1318,75.697,521.4,26.249,104.2
+city_20260418_transition_settle,city_transition_window,neg_tail_boost_1p25,175.0,-1000.0,1.25,0,1318,83.127,576.612,26.177,107.0
+city_20260418_transition_settle,city_transition_window,neg_tail_boost_1p50,175.0,-1000.0,1.5,0,1318,84.518,418.25,25.781,107.2
+city_20260418_transition_settle,city_transition_window,neg_tail_boost_2p00,175.0,-1000.0,2.0,0,1318,78.728,176.3,25.136,105.2
+city_20260418_final_hold,city_final_hold_window,baseline,175.0,,1.0,0,1051,8.885,81.0,17.71,82.0
+city_20260418_final_hold,city_final_hold_window,neg_tail_boost_1p25,175.0,-1000.0,1.25,0,1051,8.885,81.0,17.71,82.0
+city_20260418_final_hold,city_final_hold_window,neg_tail_boost_1p50,175.0,-1000.0,1.5,0,1051,8.885,81.0,17.71,82.0
+city_20260418_final_hold,city_final_hold_window,neg_tail_boost_2p00,175.0,-1000.0,2.0,0,1051,8.885,81.0,17.71,82.0

@@ -1,0 +1,3 @@
+sample_id,regime,decode_mode,sample_path,window,frames_260,duration_min,parse_errors,min_setpoint,max_setpoint,p05_setpoint,p50_setpoint,p95_setpoint,neutral_band_ratio,max_abs_delta,avg_abs_delta,p95_abs_delta,positive_ratio,negative_ratio
+city_20260418_transition_compression,city_transition_compression,no_b1_flip,<LOCAL_RAW_CAN_LOG>/20260418/raw_can_logs/toyota_seg_IGN_ON_20260418_181012_007.ndjson,rel:29.0->rel:44.0,667,0.25,0,-500.0,-242.0,-421.8,-242.0,-242.0,0.0,258.0,25.724,256.0,0.0,1.0
+city_20260418_transition_settle_tail,city_transition_settle_tail,no_b1_flip,<LOCAL_RAW_CAN_LOG>/20260418/raw_can_logs/toyota_seg_IGN_ON_20260418_181012_007.ndjson,rel:44.0->rel:59.0,651,0.25,0,-5814.0,848.0,-2677.0,-242.0,-13.0,0.0,1325.0,73.182,267.55,0.032,0.968

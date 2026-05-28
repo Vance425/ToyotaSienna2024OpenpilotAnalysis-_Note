@@ -1,0 +1,16 @@
+sample_id,regime,variant,base_slew,low_band_limit,low_band_boost,deep_band_limit,deep_band_boost,parse_errors,frames_260,point_mae,point_p95_abs_error,delta_mae,delta_p95_abs_error
+city_20260418_late_stop_approach,city_approach_window,baseline,175.0,,1.0,,1.0,0,1288,14.1,81.0,18.267,81.0
+city_20260418_late_stop_approach,city_approach_window,low_band_catchup_5p50,175.0,100.0,5.5,,1.0,0,1288,14.1,81.0,18.267,81.0
+city_20260418_late_stop_approach,city_approach_window,low55_plus_deep1p50,175.0,100.0,5.5,700.0,1.5,0,1288,14.1,81.0,18.267,81.0
+city_20260418_late_stop_approach,city_approach_window,low55_plus_deep2p00,175.0,100.0,5.5,700.0,2.0,0,1288,14.1,81.0,18.267,81.0
+city_20260418_late_stop_approach,city_approach_window,low55_plus_deep2p50,175.0,100.0,5.5,700.0,2.5,0,1288,14.1,81.0,18.267,81.0
+city_20260418_transition_settle_tail,city_transition_settle_tail,baseline,175.0,,1.0,,1.0,0,651,149.009,1270.0,44.683,176.0
+city_20260418_transition_settle_tail,city_transition_settle_tail,low_band_catchup_5p50,175.0,100.0,5.5,,1.0,0,651,122.881,1028.5,41.72,173.0
+city_20260418_transition_settle_tail,city_transition_settle_tail,low55_plus_deep1p50,175.0,100.0,5.5,700.0,1.5,0,651,94.272,708.25,35.263,178.2
+city_20260418_transition_settle_tail,city_transition_settle_tail,low55_plus_deep2p00,175.0,100.0,5.5,700.0,2.0,0,651,52.863,344.0,32.252,110.0
+city_20260418_transition_settle_tail,city_transition_settle_tail,low55_plus_deep2p50,175.0,100.0,5.5,700.0,2.5,0,651,27.788,105.5,28.752,111.1
+city_20260418_final_hold,city_final_hold_window,baseline,175.0,,1.0,,1.0,0,1051,8.885,81.0,17.71,82.0
+city_20260418_final_hold,city_final_hold_window,low_band_catchup_5p50,175.0,100.0,5.5,,1.0,0,1051,8.885,81.0,17.71,82.0
+city_20260418_final_hold,city_final_hold_window,low55_plus_deep1p50,175.0,100.0,5.5,700.0,1.5,0,1051,8.885,81.0,17.71,82.0
+city_20260418_final_hold,city_final_hold_window,low55_plus_deep2p00,175.0,100.0,5.5,700.0,2.0,0,1051,8.885,81.0,17.71,82.0
+city_20260418_final_hold,city_final_hold_window,low55_plus_deep2p50,175.0,100.0,5.5,700.0,2.5,0,1051,8.885,81.0,17.71,82.0

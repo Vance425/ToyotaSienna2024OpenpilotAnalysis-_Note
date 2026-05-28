@@ -1,0 +1,5 @@
+"file","grade","reason","has_seed","has_ramp","has_plateau","has_exit","has_corridor","seed_ts","plateau_ts","top_tier_peak_count","frame116_count"
+"<LOCAL_RAW_CAN_LOG>\20260426\raw_can_logs\toyota_all_20260426_053902_000.ndjson","B","touches fff4|fff4 + 0000 but lacks full lifecycle","True","False","False","False","True","1777181967265",,"0","10568"
+"<LOCAL_RAW_CAN_LOG>\20260426\raw_can_logs\toyota_all_20260426_054402_001.ndjson","B","touches fff4|fff4 + 0000 but lacks full lifecycle","True","True","False","False","True","1777182376478",,"0","10317"
+"<LOCAL_RAW_CAN_LOG>\20260426\raw_can_logs\toyota_all_20260426_054856_002.ndjson","C","corridor activity without full seed state","False","True","False","False","True",,,"0","10347"
+"<LOCAL_RAW_CAN_LOG>\20260426\raw_can_logs\toyota_all_20260426_055355_003.ndjson","C","corridor activity without full seed state","False","False","False","False","True",,,"0","6587"

@@ -1,0 +1,6 @@
+Input: /home/vance/raw_can_logs/0x260_probe.csv
+Total Frames: 7877
+Spikes Filtered: 0
+Max Sanitized Delta: 819
+Avg Sanitized Delta: 59.56
+Std Dev: 115.95

@@ -1,0 +1,16 @@
+sample_id,variant,bucket,frames,point_mae,point_p95_abs_error,parse_errors
+city_20260418_transition_settle_tail,baseline,__all__,651,149.009,1270.0,0
+city_20260418_transition_settle_tail,baseline,low_negative,557,50.458,85.2,0
+city_20260418_transition_settle_tail,baseline,near_zero,35,224.114,1053.9,0
+city_20260418_transition_settle_tail,baseline,mid_negative,11,751.364,2414.0,0
+city_20260418_transition_settle_tail,baseline,deep_negative,48,1099.812,1748.45,0
+city_20260418_transition_settle_tail,low_band_catchup_4p50,__all__,651,126.202,1028.5,0
+city_20260418_transition_settle_tail,low_band_catchup_4p50,low_negative,557,30.447,83.0,0
+city_20260418_transition_settle_tail,low_band_catchup_4p50,near_zero,35,129.557,676.6,0
+city_20260418_transition_settle_tail,low_band_catchup_4p50,mid_negative,11,748.818,2414.0,0
+city_20260418_transition_settle_tail,low_band_catchup_4p50,deep_negative,48,1092.229,1723.6,0
+city_20260418_transition_settle_tail,low_band_catchup_5p50,__all__,651,122.881,1028.5,0
+city_20260418_transition_settle_tail,low_band_catchup_5p50,low_negative,557,27.508,82.0,0
+city_20260418_transition_settle_tail,low_band_catchup_5p50,near_zero,35,114.557,571.6,0
+city_20260418_transition_settle_tail,low_band_catchup_5p50,mid_negative,11,748.818,2414.0,0
+city_20260418_transition_settle_tail,low_band_catchup_5p50,deep_negative,48,1092.229,1723.6,0

@@ -1,0 +1,10 @@
+sample_id,regime,variant,frames_260,observed_min,observed_max,point_mae,point_p95_abs_error,delta_mae,delta_p95_abs_error,parse_errors
+city2_20260418_pre_settle,city2_pre_settle_window,baseline,415,-10207.0,7650.0,1518.745,8813.5,141.43,605.35,0
+city2_20260418_pre_settle,city2_pre_settle_window,low_band_catchup_5p50,415,-10207.0,7650.0,1518.745,8813.5,141.43,605.35,0
+city2_20260418_pre_settle,city2_pre_settle_window,low55_plus_deep2p50,415,-10207.0,7650.0,1518.745,8813.5,141.43,605.35,0
+city2_20260418_transition_settle,city2_transition_settle_window,baseline,411,-5822.0,597.0,91.983,377.0,41.612,161.55,0
+city2_20260418_transition_settle,city2_transition_settle_window,low_band_catchup_5p50,411,-5822.0,597.0,93.752,410.0,38.846,153.4,0
+city2_20260418_transition_settle,city2_transition_settle_window,low55_plus_deep2p50,411,-5822.0,597.0,21.645,86.25,32.283,98.0,0
+city2_20260418_post_settle_hold,city2_post_settle_hold_window,baseline,398,-2667.0,-1.0,38.108,86.0,46.584,99.0,0
+city2_20260418_post_settle_hold,city2_post_settle_hold_window,low_band_catchup_5p50,398,-2667.0,-1.0,38.108,86.0,46.584,99.0,0
+city2_20260418_post_settle_hold,city2_post_settle_hold_window,low55_plus_deep2p50,398,-2667.0,-1.0,38.108,86.0,46.584,99.0,0

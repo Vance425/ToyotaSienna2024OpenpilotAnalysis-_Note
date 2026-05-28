@@ -1,0 +1,41 @@
+file,grade,reason,has_seed,has_ramp,has_plateau,has_exit,has_corridor,seed_ts,plateau_ts,top_tier_peak_count,frame116_count
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20251125_181721_000.ndjson,B,touches fff4|fff4 + 0000 but lacks full lifecycle,True,True,False,False,True,1778266463078,,0,8866
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20251125_181724_000.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,10290
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_184957_000.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,1189
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_190347_001.ndjson,C,corridor activity without full seed state,False,True,True,False,True,,1778267259813,27,10307
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_190841_002.ndjson,B,touches fff4|fff4 + 0000 but lacks full lifecycle,True,True,False,False,True,1778267495325,,0,10264
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_191333_003.ndjson,B,touches fff4|fff4 + 0000 but lacks full lifecycle,True,True,False,False,True,1778267691349,,0,10271
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_191826_004.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,10257
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_192313_005.ndjson,C,corridor activity without full seed state,False,True,True,True,True,,1778268428611,6,10218
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_192759_006.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,10348
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_193254_007.ndjson,B,touches fff4|fff4 + 0000 but lacks full lifecycle,True,True,False,False,True,1778268886398,,0,10377
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_193747_008.ndjson,A,seed + ramp + plateau + exit under fff4/fff0 pattern,True,True,True,True,True,1778269149432,1778269103252,2,10209
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_all_20260508_194235_009.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,777
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_OFF_20260508_185242_000.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,29
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_OFF_20260508_185822_000.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,0
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20251125_181722_000.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,338
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_184958_000.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,1152
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_185243_000.ndjson,B,touches fff4|fff4 + 0000 but lacks full lifecycle,True,True,False,False,True,1778266463078,,0,4889
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_185518_001.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,3586
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_185835_000.ndjson,C,corridor activity without full seed state,False,False,False,False,True,,,0,5248
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_190124_001.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,5201
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_190352_002.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,5227
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_190621_003.ndjson,C,corridor activity without full seed state,False,True,True,False,True,,1778267259813,27,5253
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_190851_004.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,5225
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_191119_005.ndjson,B,touches fff4|fff4 + 0000 but lacks full lifecycle,True,True,False,False,True,1778267495325,,0,5222
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_191348_006.ndjson,B,touches fff4|fff4 + 0000 but lacks full lifecycle,True,True,False,False,True,1778267691349,,0,5261
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_191618_007.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,5179
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_191845_008.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,5198
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_192111_009.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,5209
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_192336_010.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,5157
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_192600_011.ndjson,C,corridor activity without full seed state,False,True,True,True,True,,1778268428611,6,5211
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_192827_012.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,5279
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_193058_013.ndjson,C,corridor activity without full seed state,False,True,False,False,True,,,0,5231
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_193326_014.ndjson,B,touches fff4|fff4 + 0000 but lacks full lifecycle,True,True,False,False,True,1778268886398,,0,5304
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_193555_015.ndjson,B,touches fff4|fff4 + 0000 but lacks full lifecycle,True,True,True,False,True,1778269009368,1778269103252,2,5209
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_193824_016.ndjson,B,touches fff4|fff4 + 0000 but lacks full lifecycle,True,True,False,False,True,1778269149432,,0,5210
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_194050_017.ndjson,C,corridor activity without full seed state,False,False,False,False,True,,,0,4494
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_IGN_ON_20260508_194316_018.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,0
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_UNKNOWN_20251125_181721_000.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,24
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_UNKNOWN_20251125_181724_000.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,0
+<LOCAL_RAW_CAN_LOG>/20260509/raw_can_logs/toyota_seg_UNKNOWN_20260508_184957_000.ndjson,D,no seed/corridor pattern,False,False,False,False,False,,,0,37

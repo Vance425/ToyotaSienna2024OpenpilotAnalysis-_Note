@@ -1,0 +1,9 @@
+sample_id,regime,decode_mode,sample_path,frames_260,duration_min,parse_errors,min_setpoint,max_setpoint,p05_setpoint,p50_setpoint,p95_setpoint,neutral_band_ratio,max_abs_delta,avg_abs_delta,p95_abs_delta,positive_ratio,negative_ratio
+anchor_190101,anchor,no_b1_flip,<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260312_190101_000.ndjson,17382,6.73,0,-17712.0,16890.0,-9319.0,-256.0,3054.95,0.008,3416.0,111.382,288.0,0.134,0.866
+partial_171414,partial_ramp,no_b1_flip,<LOCAL_RAW_CAN_LOG>/20260316/raw_can_logs/toyota_seg_IGN_ON_20260315_171414_000.ndjson,27306,11.14,0,-12066.0,7957.0,-938.0,19.0,1244.75,0.023,1338.0,69.905,268.0,0.221,0.779
+compact_184921,compact_partial,no_b1_flip,<LOCAL_RAW_CAN_LOG>/toyota_seg_IGN_ON_20260311_184921_000.ndjson,7877,3.08,0,-3041.0,7981.0,-624.0,-201.0,2472.2,0.002,810.0,63.408,265.0,0.272,0.728
+city_20260418_163135,city_active,no_b1_flip,<LOCAL_RAW_CAN_LOG>/20260418/raw_can_logs/toyota_all_20260418_163135_000.ndjson,12794,5.5,0,-8233.0,9456.0,-1838.45,-143.0,468.0,0.02,2689.0,72.837,265.0,0.101,0.899
+city_20260418_175240,city_hold,no_b1_flip,<LOCAL_RAW_CAN_LOG>/20260418/raw_can_logs/toyota_all_20260418_175240_000.ndjson,12104,4.82,0,-8184.0,26552.0,-910.0,-256.0,14016.0,0.003,5266.0,96.821,265.0,0.234,0.766
+entry_20260426_015302,entry_side,no_b1_flip,<LOCAL_RAW_CAN_LOG>/20260426/raw_can_logs/toyota_all_20260426_015302_000.ndjson,12246,4.94,0,-7995.0,9965.0,-1896.5,-48.0,650.0,0.008,1573.0,81.435,271.0,0.13,0.87
+entry_20260426_042139,entry_side,no_b1_flip,<LOCAL_RAW_CAN_LOG>/20260426/raw_can_logs/toyota_all_20260426_042139_000.ndjson,12191,5.02,0,-14078.0,18987.0,-6846.5,-28.0,2823.0,0.027,3744.0,123.541,314.55,0.366,0.634
+entry_20260426_053902,entry_side,no_b1_flip,<LOCAL_RAW_CAN_LOG>/20260426/raw_can_logs/toyota_all_20260426_053902_000.ndjson,12379,5.01,0,-9790.0,12810.0,-1373.0,-266.0,314.0,0.004,4213.0,46.435,262.0,0.054,0.946

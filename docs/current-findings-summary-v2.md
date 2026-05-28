@@ -1,0 +1,228 @@
+<!-- 中文化說明：本文件已轉為中文閱讀版；技術名詞保留原文。 -->
+# 中文文件?v2
+
+## 文件定位
+本文件屬於研究庫，用於記錄分析、判斷與後續整理。
+
+## 關鍵重點
+- 重點：current-findings-summary-v2；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：CAN?`2024 Toyota Sienna + comma 3X`?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：20260525 Research Update；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[research-update-20260525-zh.md](research-update-20260525-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[current-conclusion-20260525-zh.md](current-conclusion-20260525-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[tsk-confirmed-milestones-and-fast-export-plan-zh.md](tsk-confirmed-milestones-and-fast-export-plan-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[post-secoc-key-remaining-checklist-zh.md](post-secoc-key-remaining-checklist-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[implementation-next-step-plan-zh.md](implementation-next-step-plan-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`TSK`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`2024 Sienna`?`C3X`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`TSK-nearest`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：此項描述分析條件、觀察結果或後續動作，已整理為中文。
+- 重點：`SecOCKey`?MAC；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Direct  / Key-State Limits；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[passive-line-vs-key-sync-limitations-zh.md](passive-line-vs-key-sync-limitations-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[2024-sienna-extract-keys-failure-layer-analysis-zh.md](2024-sienna-extract-keys-failure-layer-analysis-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[old-secoc-tsk-method-explained.md](old-secoc-tsk-method-explained.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[old-secoc-method-likely-broken-points.md](old-secoc-method-likely-broken-points.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`SecOCKey`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`extract_keys`?ECU；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`2024 Sienna`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：ECU；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`SecurityAccess`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`KEY_1 / KEY_4`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Reference；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[public-references-map.md](public-references-map.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[public-references-map-zh.md](public-references-map-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Virtual TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[virtual-tsk-spec-match-review.md](virtual-tsk-spec-match-review.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[virtual-tsk-spec-verification-table.md](virtual-tsk-spec-verification-table.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[virtual-tsk-spec-precision-validation.md](virtual-tsk-spec-precision-validation.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[virtual-tsk-spec-newer-sample-check.md](virtual-tsk-spec-newer-sample-check.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[protected-backbone-validation-vs-virtual-spec.md](protected-backbone-validation-vs-virtual-spec.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`Virtual TSK Spec`?`0x260`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x260`?`0x90`?`0x127`?`0xAA`?`0x371`?`0x101`?`0x108`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x371`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x127`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x116`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x131`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x2E4`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Longitudinal Event IDs；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[longitudinal-candidate-map.md](longitudinal-candidate-map.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[longitudinal-event-id-scan.md](longitudinal-event-id-scan.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[longitudinal-control-confirmed-update-zh.md](longitudinal-control-confirmed-update-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：ACC?`0x260`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x260`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0xD8`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x90`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x191`?`0x371`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0xAA`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：MAC；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[bridge-target-control-branch-validation.md](bridge-target-control-branch-validation.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[openpilot-control-side-working-note.md](openpilot-control-side-working-note.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[implementation-prerequisites-vs-working-assumptions.md](implementation-prerequisites-vs-working-assumptions.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[implementation-prerequisite-checklist.md](implementation-prerequisite-checklist.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[blocked-priority-and-bridge-shortlist.md](blocked-priority-and-bridge-shortlist.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[bridge-gap-window-triage-20260426-tiera.md](bridge-gap-window-triage-20260426-tiera.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[bridge-gap-capture-plan-v2.md](bridge-gap-capture-plan-v2.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[bridge-gap-capture-checklist-20s-zh.md](bridge-gap-capture-checklist-20s-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[codexcliagent-sim-review.md](codexcliagent-sim-review.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-simulation-plan.md](replay-backed-simulation-plan.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-simulation-harness.md](replay-backed-simulation-harness.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-simulation-round1.md](replay-backed-simulation-round1.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-simulation-round2.md](replay-backed-simulation-round2.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-simulation-round3.md](replay-backed-simulation-round3.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-simulation-round4.md](replay-backed-simulation-round4.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-simulation-round5.md](replay-backed-simulation-round5.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-simulation-round6.md](replay-backed-simulation-round6.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-simulation-round6-regime-read.md](replay-backed-simulation-round6-regime-read.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-city-hold-residual-read.md](replay-backed-city-hold-residual-read.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-final-hold-vs-broad-hold.md](replay-backed-final-hold-vs-broad-hold.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-city-late-stop-triad.md](replay-backed-city-late-stop-triad.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[replay-backed-transition-settle-shaping-hypothesis.md](replay-backed-transition-settle-shaping-hypothesis.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[transition-settle-shaping-experiment-round1.md](transition-settle-shaping-experiment-round1.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[transition-settle-shaping-experiment-round2.md](transition-settle-shaping-experiment-round2.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[transition-settle-subphase-split.md](transition-settle-subphase-split.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[transition-settle-shaping-experiment-round3.md](transition-settle-shaping-experiment-round3.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[transition-settle-shaping-experiment-round4.md](transition-settle-shaping-experiment-round4.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[transition-settle-shaping-experiment-round5.md](transition-settle-shaping-experiment-round5.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[transition-settle-residual-breakdown.md](transition-settle-residual-breakdown.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[transition-settle-shaping-experiment-round6.md](transition-settle-shaping-experiment-round6.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[transition-settle-second-city-validation.md](transition-settle-second-city-validation.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`CodexCliAgent/.../sim`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`289`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`184921`?`171414`?`190101`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`289 / [-760, 7981] / asymmetric + slew`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`184921`?`190101`?`20260418_175240`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`legacy_ff_negative`?`no_b1_flip`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`decode_mode = no_b1_flip`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`mode = identity`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`slew ~= 100`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`no_b1_flip + identity`?`bounded`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`slew ~= 125`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`no_b1_flip + identity`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`slew ~= 175`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`p95`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`4.0x`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`5.5x`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`p95`?`4.5x`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`4.5x+`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`low-band catch-up`?`low_negative`?`near_zero`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`deep_negative`?`mid_negative`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`low-band catch-up 5.5x`?`2.5x`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`identity + 175`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`171414`?`190101`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`184921`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`20260426`?`Grade B / ladder 3`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`171414`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`legacy_ff_negative`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`bounded`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Next-Log；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[next-log-analysis-template.md](next-log-analysis-template.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：20260509 Batch；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[mainline-progress-update-20260509-zh.md](mainline-progress-update-20260509-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[session-review-20260509-segment1-preliminary-zh.md](session-review-20260509-segment1-preliminary-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[session-review-20260509-first-pass-zh.md](session-review-20260509-first-pass-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[session-review-20260509-session3-high-region-detailed-zh.md](session-review-20260509-session3-high-region-detailed-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[session-review-20260509-session3-route-read-zh.md](session-review-20260509-session3-route-read-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[session-review-20260509-session3-bridge-tier-read-zh.md](session-review-20260509-session3-bridge-tier-read-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[session-review-20260509-session3-continuity-gap-vs-171414-190101-zh.md](session-review-20260509-session3-continuity-gap-vs-171414-190101-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[session-review-20260509-session3-targeted-plateau-exit-cut-zh.md](session-review-20260509-session3-targeted-plateau-exit-cut-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[session-review-20260509-vs-190101-pocket-compare-zh.md](session-review-20260509-vs-190101-pocket-compare-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`Session 1`?`fingerprint + LKAS Context + LKAS Failed`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`SecOC / key-state / synchronization`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`Session 3`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`03:37:47.838 -> 03:42:35.929`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`Grade A`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`A`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`190101`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`03:38:12 -> 03:38:42`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`03:41:52 -> 03:42:25`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`20260509`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`03:39:37 -> 03:40:42`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`03:40:29 -> 03:40:57`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Legacy Tools；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[tools-value-tier-table.md](tools-value-tier-table.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toolkit-minimal-retention-set.md](toolkit-minimal-retention-set.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Stable；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x116.b0-b1`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x116.tail.n0`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x116.tail.n3`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x116.tail.n1`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x116.tail.n6/n7`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x116.tail.n4/n5`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Backbone；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`+4`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Corrections；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`+8`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`+5`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`+1`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`+13`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`2026-03-11`?`2026-03-12`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`2026-03-12 IGN_ON`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`+4`?`74%`?`78%`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Base Phase；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x116 phase = 00 00`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`00 00`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Deep Climb vs Short Climb；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Deep Climb；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x116`?`00 00`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x131 / 0x260`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Short Climb；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：High- Family Corridor；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`fff4 -> fff0 -> ffee -> ffeb -> ffe8 -> ffe7`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Top-Tier  Rule；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x116 phase_sum >= 120`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x131 family zone = fff4`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x260 family zone = fff4`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260312_190101_000.ndjson](../logs/toyota_seg_IGN_ON_20260312_190101_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`43 48`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`44 46`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`42 40`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Top-Tier Lifecycle；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Entry；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`fff4|fff4`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`n0 +8`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Plateau；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`phase_sum >= 130`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Exit；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`fff4 -> fff0`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`n0 +1`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Partial Seed；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260312_185520_000.ndjson](../logs/toyota_seg_IGN_ON_20260312_185520_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260314_173834_000.ndjson](../logs/toyota_seg_IGN_ON_20260314_173834_000.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260314_175006_001.ndjson](../logs/toyota_seg_IGN_ON_20260314_175006_001.ndjson)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`fff4|fff4 + 00 00`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：2026-04-26 Batch；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[session-review-20260426-complete.md](session-review-20260426-complete.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[20260426-batch-position-on-ladder.md](20260426-batch-position-on-ladder.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[session-review-20260426-companion-read.md](session-review-20260426-companion-read.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`2026-04-26`?`TSK-nearest`?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`173834_000`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`184921_000`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`171414_000`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`190101_000`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`171414 -> 190101`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x191.b4-b5`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：2026-03-14 Long Driving；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[toyota_seg_IGN_ON_20260314_175006_001.ndjson](../logs/toyota_seg_IGN_ON_20260314_175006_001.ndjson)?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`43 43`?`42 43`?`42 42`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`005c`?`0069`?`0098`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`fff4 -> ffe7`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[high-phase-non-top-tier-comparison-175006.md](high-phase-non-top-tier-comparison-175006.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：Grading；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`Grade B`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`Grade C`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`Grade D`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[final-grading-rules.md](final-grading-rules.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：v5 Toolkit Update；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`toyota_v5`?TSK；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`seed window`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x131`?`0x115`?`0x116`?`0x177`?`0x260`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：`0x131 / 0x116 / 0x260`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 中文整理：本段說明背景、觀察結果與實務判斷。
+
+## 保留的技術名詞與資料
+- program / script / log spec / CAN ID / DBC signal / file path / command 保留原文。
+- 表格中的欄位名、檔名、 frame ID 與數值保留原文，以避免誤譯分析結果。
+
+## 後續整理
+後續可再依原始 log 與表格人工精修。
