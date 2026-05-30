@@ -129,6 +129,7 @@
 - 重點：[session-review-20260509-vs-190101-pocket-compare-zh.md](session-review-20260509-vs-190101-pocket-compare-zh.md)；此項說明其條件、角色或判斷，技術名詞保留原文。
 - 重點：`Session 1`?`fingerprint + LKAS Context + LKAS Failed`；此項說明其條件、角色或判斷，技術名詞保留原文。
 - 重點：`SecOC / key-state / synchronization`；此項說明其條件、角色或判斷，技術名詞保留原文。
+- 重點：[lkas-failed-public-summary-zh.md](lkas-failed-public-summary-zh.md)；此項為 `LKAS Failed` fault-context 的一頁摘要。
 - 重點：`Session 3`；此項說明其條件、角色或判斷，技術名詞保留原文。
 - 重點：`03:37:47.838 -> 03:42:35.929`；此項說明其條件、角色或判斷，技術名詞保留原文。
 - 重點：`Grade A`；此項說明其條件、角色或判斷，技術名詞保留原文。

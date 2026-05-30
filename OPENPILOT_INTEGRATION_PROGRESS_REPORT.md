@@ -137,6 +137,7 @@ anchor = 20260312_190101_000
 - [x] 專案不再只是等待 new CAN logs。
 - [x] `20260509` CAN batch 已納入 passive mainline。
 - [x] 短 `fingerprint + LKAS Context + LKAS Failed` segment 提供了更強的 `SecOC / key-state / synchronization` failure-context sample。
+  - public short summary: [docs/lkas-failed-public-summary-zh.md](./docs/lkas-failed-public-summary-zh.md)
 - [x] 長 `Session 3` mixed-route sample 提供：
   - route-length real-world follow sample
   - late whole-file `Grade A` high-value region
