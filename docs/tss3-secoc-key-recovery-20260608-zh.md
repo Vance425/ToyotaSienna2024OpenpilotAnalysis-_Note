@@ -1,7 +1,7 @@
 # TSS3 SecOCKey 找出過程與重點紀錄
 
 日期：2026-06-08  
-對象：Toyota Sienna 4TH_GEN / TSS3  
+對象：Toyota Sienna build 2024 6 / TSS3  
 狀態：已找到並經車上驗證成功  
 
 > 本文件只記錄分析流程、驗證方法與 redacted 結果。  
