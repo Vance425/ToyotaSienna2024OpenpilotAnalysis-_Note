@@ -119,3 +119,25 @@
 詳細規則見：
 
 - [Public Redaction Policy](./docs/public-redaction-policy-zh.md)
+
+## 2026-06-08 TSS3 SecOCKey Recovery Update
+
+TSS3 / Toyota Sienna 4TH_GEN 的 SecOCKey recovery 已完成一輪可驗證成果：
+
+- 從伙伴車 EPS DataFlash dump 建立 candidate pool。
+- 修正 `0x0f` sync verifier 的 `RESET_CNT` packing。
+- 使用 corrected `0x0f` sync oracle 找到同一把 key，驗證達 `1024/1024`。
+- 使用 `0x131 / 0x2e4 / 0x344` protected-frame oracle 交叉驗證。
+- 車上安裝測試已確認成功。
+- 後續已整理成 one-shot Python 工具，可在 comma 上自行收 CAN、dump EPS、分析並 export `SecOCKey.hex`。
+
+完整中文版紀錄：
+
+- [TSS3 SecOCKey 找出過程與重點紀錄](./docs/tss3-secoc-key-recovery-20260608-zh.md)
+
+安全注意：
+
+- 本 repo 只保存 redacted 分析流程、key hash、驗證比例與方法。
+- 不保存 raw SecOCKey。
+- 不保存 private key file。
+- 不保存 raw candidate CSV 或可外流的私密 dump。
