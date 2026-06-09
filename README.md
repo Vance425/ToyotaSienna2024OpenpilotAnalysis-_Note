@@ -122,7 +122,7 @@
 
 ## 2026-06-08 TSS3 SecOCKey Recovery Update
 
-TSS3 / Toyota Sienna 4TH_GEN 的 SecOCKey recovery 已完成一輪可驗證成果：
+Toyota Sienna 2024款6月 build / TSS3 / Toyota Sienna 4TH_GEN 的 SecOCKey recovery 已完成一輪可驗證成果：
 
 - 從伙伴車 EPS DataFlash dump 建立 candidate pool。
 - 修正 `0x0f` sync verifier 的 `RESET_CNT` packing。
